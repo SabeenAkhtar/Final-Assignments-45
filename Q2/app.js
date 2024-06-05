@@ -1,4 +1,7 @@
-// Assigment 2 personal name  storing in variable
-var PersonName = "SABEEN";
+"use strict";
+// Q2 - Personal Message: Store a person’s name in a variable, 
+//and print a message to that person. Your message should be simple, 
+//such as, “Hello Eric, would you like to learn some Python today?”
+let PersonName = "SABEEN";
 // print name 
-console.log("Hello ".concat(PersonName, " Would you like to learn some Phython today?"));
+console.log(`Hello ${PersonName} Would you like to learn some Phython today?`);
